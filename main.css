@@ -1,0 +1,92 @@
+.grid-container{
+    /* display: grid; */
+    /* grid-template-columns:20% 80%; */
+}
+
+.heading{
+    /* grid-column:1/3; */
+    background:rgb(60,220,140);
+    position: relative;
+    left:20%;
+    width: 60%;
+    height: 190px;
+    margin:0;
+    /* border:1px solid; */
+}
+
+.left{
+    position:relative;
+    left: 20%;
+    top:-60px;
+    width: 15%;
+    height:500px;
+    background:rgb(200, 241, 218);
+    /* border:1px solid; */
+}
+
+.right{
+    position: relative;
+    left: 35%;
+    top:-560px;
+    width:45%;
+    height:500px;
+    background:azure;
+    /* border:1px solid; */
+}
+
+#profile-photo{
+    position:relative;
+    width:200px;
+    /* height:150px; */
+    border-radius: 10%;
+    margin:10px;
+    /* border:1px solid; */
+}
+.Div{
+    border-radius: 2%;
+    /* border:1px solid; */
+}
+
+#name{
+    position: relative;
+    padding: 0;
+    left:220px;
+    top:-120px;
+    /* border:1px solid; */
+    width:300px;
+}
+h1{
+    margin:0;
+    padding:0;
+    /* border:1px solid; */
+}
+
+h3{
+    margin:0;
+    padding:0;
+    /* border:1px solid; */
+}
+h4{
+    margin:0;
+    padding:0;
+    /* border:1px solid; */
+    width:300px;
+}
+
+.contacts{
+    position:relative;
+    left:60%;
+    top:-100px;
+    /* border:1px solid; */
+}
+/* #phone{
+    position: relative;
+    width:10px;
+    margin:0;
+    padding:0;
+} */
+
+table, th, td {
+    border: 1px solid black;
+  border-collapse: collapse;
+  }
